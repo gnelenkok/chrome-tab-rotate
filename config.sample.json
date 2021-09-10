@@ -1,9 +1,9 @@
 {
   "settingsReloadIntervalMinutes": 1,
-  "fullscreen": false,
-  "autoStart": false,
-  "lazyLoadTabs": false,
-  "closeExistingTabs": false,
+  "fullscreen": true,
+  "autoStart": true,
+  "lazyLoadTabs": true,
+  "closeExistingTabs": true,
   "websites": [
     {
       "url": "https://jira.tradition.com.ua/secure/RapidBoard.jspa?rapidView=8&projectKey=WT",
@@ -23,17 +23,17 @@
     {
       "url": "https://grafana.tradition.com.ua/d/39RmQWVnz/finextra-web-nginx?autofitpanels&orgId=1",
       "duration": 240,
-      "tabReloadIntervalSeconds": 360
+      "tabReloadIntervalSeconds": 0
     },
     {
       "url": "https://grafana.tradition.com.ua/d/l9_fx8Vnz/prometheus-blackbox-exporter?kiosk=tv&orgId=1",
       "duration": 240,
-      "tabReloadIntervalSeconds": 360
+      "tabReloadIntervalSeconds": 0
     },
     {
       "url": "https://grafana.tradition.com.ua/d/AxpckgS7z/gitlab-ci-pipelines?kiosk=tv&orgId=1&refresh=5m",
       "duration": 240,
-      "tabReloadIntervalSeconds": 360
+      "tabReloadIntervalSeconds": 0
     },
     {
       "url": "https://jira.tradition.com.ua/secure/Dashboard.jspa#%D0%9B%D0%B5%D0%BD%D1%82%D0%B0-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8/10003",
