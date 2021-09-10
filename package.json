@@ -1,0 +1,42 @@
+{
+  "name": "chrome-tab-rotate",
+  "version": "0.6.2",
+  "description": "Loop through a set of tabs - ideal for a Dashboard or Advertisement Display",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "chokidar": "^2.1.0",
+    "cpy": "^8.1.2",
+    "esbuild": "^0.12.17",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "zip-a-folder": "^1.1.0"
+  },
+  "scripts": {
+    "build": "node esbuild.config.mjs build",
+    "zip": "node esbuild.config.mjs zip",
+    "start": "nodemon --exec 'node esbuild.config.mjs watch'",
+    "lint": "./node_modules/.bin/eslint --fix ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSheedy/chrome-tab-rotate.git"
+  },
+  "keywords": [
+    "tab",
+    "rotate",
+    "dashboard"
+  ],
+  "author": "Kevin Sheedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSheedy/chrome-tab-rotate/issues"
+  },
+  "homepage": "https://github.com/KevinSheedy/chrome-tab-rotate#readme"
+}
