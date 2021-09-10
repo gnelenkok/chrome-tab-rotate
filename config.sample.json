@@ -26,7 +26,7 @@
       "tabReloadIntervalSeconds": 360
     },
     {
-      "url": "https://grafana.tradition.com.ua/d/l9_fx240Vnz/prometheus-blackbox-exporter?kiosk=tv&orgId=1",
+      "url": "https://grafana.tradition.com.ua/d/l9_fx8Vnz/prometheus-blackbox-exporter?kiosk=tv&orgId=1",
       "duration": 240,
       "tabReloadIntervalSeconds": 360
     },
